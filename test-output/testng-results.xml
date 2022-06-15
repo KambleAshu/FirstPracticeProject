@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-07T01:15:43 IST" name="Suite" finished-at="2022-05-07T01:15:43 IST" duration-ms="294">
+    <groups>
+      <group name="regression">
+        <method signature="ParaOne.afrte()[pri:3, instance:Parallel.ParaOne@35aea049]" name="afrte" class="Parallel.ParaOne"/>
+      </group> <!-- regression -->
+      <group name="regression ">
+        <method signature="ParaTwo.anothoerclassmTCno2()[pri:5, instance:Parallel.ParaTwo@48f278eb]" name="anothoerclassmTCno2" class="Parallel.ParaTwo"/>
+      </group> <!-- regression  -->
+      <group name="unique">
+        <method signature="ParaOne.afrter()[pri:9, instance:Parallel.ParaOne@35aea049]" name="afrter" class="Parallel.ParaOne"/>
+      </group> <!-- unique -->
+      <group name="sanity">
+        <method signature="ParaOne.VeifyTitlraofLoginPage()[pri:1, instance:Parallel.ParaOne@35aea049]" name="VeifyTitlraofLoginPage" class="Parallel.ParaOne"/>
+        <method signature="ParaOne.VerifyURLOfLoginPage()[pri:0, instance:Parallel.ParaOne@35aea049]" name="VerifyURLOfLoginPage" class="Parallel.ParaOne"/>
+        <method signature="ParaTwo.anothoerclassmTCno1()[pri:4, instance:Parallel.ParaTwo@48f278eb]" name="anothoerclassmTCno1" class="Parallel.ParaTwo"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-05-07T01:15:43 IST" name="Test" finished-at="2022-05-07T01:15:43 IST" duration-ms="294">
+      <class name="Parallel.ParaOne">
+        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:Parallel.ParaOne@35aea049]" started-at="2022-05-07T01:14:47 IST" name="browserlaunch" finished-at="2022-05-07T01:15:43 IST" duration-ms="55898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlaunch -->
+        <test-method signature="VeifyTitlraofLoginPage()[pri:1, instance:Parallel.ParaOne@35aea049]" started-at="2022-05-07T01:15:43 IST" name="VeifyTitlraofLoginPage" finished-at="2022-05-07T01:15:43 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeifyTitlraofLoginPage -->
+        <test-method signature="VerifyURLOfLoginPage()[pri:0, instance:Parallel.ParaOne@35aea049]" started-at="2022-05-07T01:15:43 IST" name="VerifyURLOfLoginPage" finished-at="2022-05-07T01:15:43 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyURLOfLoginPage -->
+        <test-method signature="afrte()[pri:3, instance:Parallel.ParaOne@35aea049]" started-at="2022-05-07T01:15:43 IST" name="afrte" finished-at="2022-05-07T01:15:43 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afrte -->
+        <test-method signature="afrter()[pri:9, instance:Parallel.ParaOne@35aea049]" started-at="2022-05-07T01:15:43 IST" name="afrter" finished-at="2022-05-07T01:15:43 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afrter -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:Parallel.ParaOne@35aea049]" started-at="2022-05-07T01:15:43 IST" name="terminate" finished-at="2022-05-07T01:15:52 IST" duration-ms="8929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- Parallel.ParaOne -->
+      <class name="Parallel.ParaTwo">
+        <test-method signature="anothoerclassmTCno1()[pri:4, instance:Parallel.ParaTwo@48f278eb]" started-at="2022-05-07T01:15:43 IST" name="anothoerclassmTCno1" finished-at="2022-05-07T01:15:43 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anothoerclassmTCno1 -->
+        <test-method signature="anothoerclassmTCno2()[pri:5, instance:Parallel.ParaTwo@48f278eb]" started-at="2022-05-07T01:15:43 IST" name="anothoerclassmTCno2" finished-at="2022-05-07T01:15:43 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anothoerclassmTCno2 -->
+      </class> <!-- Parallel.ParaTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
